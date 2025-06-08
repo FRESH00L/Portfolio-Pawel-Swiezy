@@ -1,3 +1,9 @@
+import React from 'react';
+import { StarBackground } from '@/components/StarBackground';
+
 export const NotFound = () => {
-    return <div> Not Found</div>
+    return <div>
+        <StarBackground />
+         Not Found
+         </div>
 }
