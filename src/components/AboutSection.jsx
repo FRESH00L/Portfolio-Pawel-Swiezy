@@ -1,8 +1,9 @@
 
 import React from 'react';
-import { Code } from 'lucide-react';
+import { Code, Download } from 'lucide-react';
 import { User } from 'lucide-react';
 import { Briefcase } from 'lucide-react';
+
 
 export const AboutSection = () => {
     return <section id="about" className="py-24 px-4 relative">
@@ -23,7 +24,14 @@ export const AboutSection = () => {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button"> Get In Touch</a>
-                        <a href="#cv" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"> Download CV</a>
+                        <a 
+                        href="/CV_Pawel_Swiezy.pdf"
+                        download="CV_Pawel_Swiezy.pdf"
+                        className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                           <div className='flex items-center gap-2 mx-auto'>
+                            Download CV <Download size={16} />
+                            </div> 
+                        </a>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 gap-6">
