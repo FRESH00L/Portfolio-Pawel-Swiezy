@@ -5,31 +5,42 @@ import { ArrowRight } from "lucide-react"
 const projects = [
     {
         id:1,
-        title: "Project One",
-        description: "This is a description of project one.",
-        image: "/projects/p1.png",
-        tags: ["React", "JavaScript", "CSS"],
-        demoUrl: "#",
-        githubUrl: "#",
+        title: "The Bubbling of Frog",
+        description: "This is a 2D Game that won 2nd place on Beskid GameJam 2024 - basing on The binding of Isaac, where players control a frog and navigate through various levels. The project uses Unity and C#.",
+        image: "/projects/gameJam.jpg",
+        tags: ["Unity", "C#", "Game Development", "2D Game"],
+        demoUrl: "",
+        githubUrl: "",
     },
     {
         id:2,
-        title: "Project Two",
-        description: "This is a description of project two.",
+        title: "Space Shooter Game",
+        description: "This is a web game that allows players to control a spaceship and shoot enemies in space. The project uses JavaScript and ASP.NET.",
+        image: "/projects/space_game_js.png",
+        tags: ["JavaScript", "ASP.NET", "HTML", "CSS"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/FRESH00L/space_game",
+    },
+    {
+        id:3,
+        title: "Badminton Toournament Management System",
+        description: "This is computer aplication that can simulate badminton tournaments and manages data, project uses C# and MVC as its architecture.",
+        image: "/projects/db_badminton.png",
+        tags: ["C#", "MVC", "SQL", "Visual Studio","Entity Framework"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/FRESH00L/badmintonDBapp",
+    },
+    {
+        id:4,
+        title: "Cafeteria Management System",
+        description: "This is a computer application that allows users to manage cafeteria operations, including menu management, order processing, and customer management. Project uses C++ and Qt framework.",
         image: "/projects/p2.png",
         tags: ["React", "JavaScript", "CSS"],
         demoUrl: "#",
         githubUrl: "#",
     },
-    {
-        id:3,
-        title: "Project Three",
-        description: "This is a description of project three.",
-        image: "/projects/p1.png",
-        tags: ["React", "JavaScript", "CSS"],
-        demoUrl: "#",
-        githubUrl: "#",
-    },
+    
+    
 ]
 
 export const ProjectsSection = () => {

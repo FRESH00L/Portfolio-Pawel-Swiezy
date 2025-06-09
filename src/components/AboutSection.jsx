@@ -15,13 +15,17 @@ export const AboutSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
                     <h3 className="text-2xl font-semibold">Passionate Web Developer & Tech Creator</h3>
-                    <p className="text-muted-foreground">I'm a dedicated 4th-year Computer Science student at Silesian University of Technology with a global perspective, having recently completed an intensive English-language exchange program at a Spanish university. This international experience has enhanced my adaptability and cross-cultural communication skills—essential qualities in today's tech landscape.</p>
+                    <p className="text-muted-foreground">I’m a programmer with a focus on designing computer and web applications, as well as 2D games. I enjoy blending creativity with problem-solving to build meaningful and engaging projects.</p>
                     
-                    <p className="text-muted-foreground">My passion lies in crafting innovative desktop and web applications that solve real problems. I thrive on transforming creative ideas into functional, user-friendly software solutions. Whether it's building responsive web interfaces or developing robust desktop applications, I approach each project with enthusiasm and attention to detail.
-                        Beyond coding, I'm a creative problem-solver who draws inspiration from diverse sources. My love for RPGs has sharpened my strategic thinking and narrative design skills, while sailing has taught me patience, precision, and the importance of adapting to changing conditions—qualities that translate perfectly to software development.
-                        I'm constantly exploring emerging technologies and staying current with industry trends. My international academic experience, combined with strong technical skills and creative mindset, positions me to contribute meaningfully to dynamic development teams.
-                        Ready to bring fresh perspectives and innovative solutions to your next project.
+                    <p className="text-muted-foreground">
+                        I spent half a year abroad on the Erasmus program, where I enhanced both my computer science skills and language abilities through international collaboration and study.
                     </p>
+
+                    <p className="text-muted-foreground">
+                        Beyond coding, I enjoy sailing, tabletop RPGs, and chasing side quests — both in games and in life. Whether it's unlocking new achievements or taking on unexpected challenges, I’m always up for a new adventure.
+                        I'm also the vice-president of a sailing association - SAILESIA, where I combine leadership with my love for the sails.
+                    </p>
+
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button"> Get In Touch</a>
                         <a 
@@ -41,8 +45,8 @@ export const AboutSection = () => {
                                 <Code className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className='font-semibold text-lg'> Web Development</h4>
-                                <p className='text-muted-foreground'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, possimus odio incidunt ab beatae sapiente. Ipsa non voluptatibus aliquid unde, modi doloremque, ducimus fugit, et facilis ipsam recusandae enim dolore.</p>
+                                <h4 className='font-semibold text-lg'> Coding Skills</h4>
+                                <p className='text-muted-foreground'>As a fourth-year Computer Science student, I’ve gained solid experience in a wide range of programming languages. From low-level problem-solving in C++ to building desktop applications with C# and developing backend systems in Java</p>
                             </div>
                             
                         </div>
@@ -54,7 +58,7 @@ export const AboutSection = () => {
                             </div>
                             <div className="text-left">
                                 <h4 className='font-semibold text-lg'> Web Development</h4>
-                                <p className='text-muted-foreground'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, possimus odio incidunt ab beatae sapiente. Ipsa non voluptatibus aliquid unde, modi doloremque, ducimus fugit, et facilis ipsam recusandae enim dolore.</p>
+                                <p className='text-muted-foreground'>Throughout my education, I’ve gained hands-on experience in both technical and customer-facing roles. I worked as a mechatronics technician at Prototype, a company focused on developing and improving technology solutions. Additionally, I worked on the customer support line for an energy emergency service, where I developed strong communication skills and learned to stay calm and efficient under pressure.</p>
                             </div>
                         </div>
                     </div>
@@ -64,8 +68,10 @@ export const AboutSection = () => {
                                 <Briefcase className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className='font-semibold text-lg'> Web Development</h4>
-                                <p className='text-muted-foreground'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, possimus odio incidunt ab beatae sapiente. Ipsa non voluptatibus aliquid unde, modi doloremque, ducimus fugit, et facilis ipsam recusandae enim dolore.</p>
+                                <h4 className='font-semibold text-lg'> Education</h4>
+                                <p className='text-muted-foreground'> I am currently pursuing a Bachelor’s degree in Computer Science, with a focus on software development, and systems design at Sailesian University of Technology. During my Erasmus exchange, I studied at a partner university abroad, expanding both my technical knowledge and language skills in an international environment.
+                                            I graduated from a technical high school specializing in Mechatronics, where I gained a solid foundation in electronics, programming, and mechanical systems.
+                                </p>
                             </div>
                         </div>
                     </div>
