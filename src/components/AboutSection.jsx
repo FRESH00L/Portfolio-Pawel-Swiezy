@@ -57,7 +57,7 @@ export const AboutSection = () => {
                                 <User className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className='font-semibold text-lg'> Web Development</h4>
+                                <h4 className='font-semibold text-lg'> Experience </h4>
                                 <p className='text-muted-foreground'>Throughout my education, I’ve gained hands-on experience in both technical and customer-facing roles. I worked as a mechatronics technician at Prototype, a company focused on developing and improving technology solutions. Additionally, I worked on the customer support line for an energy emergency service, where I developed strong communication skills and learned to stay calm and efficient under pressure.</p>
                             </div>
                         </div>
