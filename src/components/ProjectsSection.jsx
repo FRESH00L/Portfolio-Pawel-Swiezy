@@ -32,12 +32,12 @@ const projects = [
     },
     {
         id:4,
-        title: "Cafeteria Management System",
-        description: "This is a computer application that allows users to manage cafeteria operations, including menu management, order processing, and customer management. Project uses C++ and Qt framework.",
-        image: "/projects/p2.png",
-        tags: ["React", "JavaScript", "CSS"],
+        title: "Weather Web Aplication",
+        description: "This is a web application that allows users to check the weather in different locations. The project uses React, JavaScript, Tailwind and API.",
+        image: "/projects/weatherApp.png",
+        tags: ["React", "JavaScript", "tailwind", "API", "Web Development"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/FRESH00L/weatherApp",
     },
     
     
