@@ -23,6 +23,7 @@ const skills = [
     // Tools and Technologies
     {name: "Git", level: 2,state: "Junior", category: "Tools"},
     {name: "Docker", level: 1,state: "Begginer", category: "Tools"},
+    {name: "Linux", level: 2,state: "Junior", category: "Tools"},
     //Languages
     {name: "Polish", level: 5,state: "C2 - Native", category: "Languages"},
     {name: "English", level: 4,state: "C1 - Advanced", category: "Languages"},
