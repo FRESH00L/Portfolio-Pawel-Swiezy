@@ -60,7 +60,7 @@ export const ContactSection = () => {
                             <div>
                                 <h4 className="font-medium">Phone</h4>
                                 <a href="tel:+48608567930" className="text-muted-foreground hover:text-primary transition-colors">
-                                    +48 608567390
+                                    +48 608567930
                                 </a>
                             </div>
                         </div>
@@ -89,56 +89,7 @@ export const ContactSection = () => {
                     </div>
                 </div>
 
-                {/* Prawa strona - Formularz */}
-                {/*
-                <div className="bg-card p-8 rounded-lg shadow-xs">
-                    <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-                    <form className="space-y-6" onSubmit={handleSubmit}>
-                        <div>
-                            <label htmlFor="name" className="block text-sm font-medium mb-2">Your Name</label>
-                            <input
-                                type="text"
-                                id="name"
-                                name="name"
-                                className="w-full px-4 py-3 rounded-md bg-background border border-input focus:outline-none focus:ring-2 focus:ring-primary transition-colors resize-none"
-                                placeholder="Enter your name"
-                                required
-                            />
-                        </div>
-                        <div>
-                            <label htmlFor="email" className="block text-sm font-medium mb-2">Your Email</label>
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                className="w-full px-4 py-3 rounded-md bg-background border border-input focus:outline-none focus:ring-2 focus:ring-primary transition-colors resize-none"
-                                placeholder="Enter your email"
-                                required
-                            />
-                        </div>
-                        <div>
-                            <label htmlFor="message" className="block text-sm font-medium mb-2">Your Message</label>
-                            <textarea
-                                id="message"
-                                name="message"
-                                rows="5"
-                                className="w-full px-4 py-3 rounded-md bg-background border border-input focus:outline-none focus:ring-2 focus:ring-primary transition-colors resize-none"
-                                placeholder="Enter your message"
-                                required
-                            />
-                        </div>
-                        <button
-                            type="submit"
-                            disabled={isSubmitting}
-                            className={cn("cosmic-button w-full flex items-center justify-center gap-2")}
-                        >
-                            {isSubmitting ? "Sending...": "Send Message"}
-                            <Send size={16}/>    
-                        </button>
-                    </form>
-                    
-                </div>
-                */}
+            
             </div>
             <div className="pt-8">
                         <h4 className="font-medium mb-4">

@@ -39,6 +39,24 @@ const projects = [
         demoUrl: "#",
         githubUrl: "https://github.com/FRESH00L/weatherApp",
     },
+    {
+        id:5,
+        title: "Coffee Shop Web Application",
+        description: "This is a web application that allows users to browse and order coffee from a virtual shop. The project uses React, JavaScript, Tailwind and API.",
+        image: "/projects/coffeeShop.png",
+        tags: ["React", "JavaScript", "tailwind", "Vite", "Web Development"],
+        demoUrl: "#",
+        githubUrl: "",
+    }, 
+    {
+        id:6,
+        title: "CRM Application",
+        description: "This is a web application that allows users to manage customer relationships and track interactions. The project uses React, JavaScript, Tailwind and API.",
+        image: "/projects/crm.png",
+        tags: ["React", "JavaScript", "NodeJs", "CRM", "Web Development"],
+        demoUrl: "#",
+        githubUrl: "",
+    }
     
     
 ]
