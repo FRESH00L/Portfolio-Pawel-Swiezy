@@ -23,8 +23,8 @@ const projects = [
     },
     {
         id:3,
-        title: "Badminton Toournament Management System",
-        description: "This is computer aplication that can simulate badminton tournaments and manages data, project uses C# and MVC as its architecture.",
+        title: "Badminton Tournament Management System",
+        description: "This is computer application that can simulate badminton tournaments and manages data, project uses C# and MVC as its architecture.",
         image: "/projects/db_badminton.png",
         tags: ["C#", "MVC", "SQL", "Visual Studio","Entity Framework"],
         demoUrl: "#",

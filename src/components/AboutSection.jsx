@@ -46,7 +46,7 @@ export const AboutSection = () => {
                             </div>
                             <div className="text-left">
                                 <h4 className='font-semibold text-lg'> Coding Skills</h4>
-                                <p className='text-muted-foreground'>As a fourth-year Computer Science student, I’ve gained solid experience in a wide range of programming languages. From low-level problem-solving in C++ to building desktop applications with C# and developing backend systems in Java</p>
+                                <p className='text-muted-foreground'>As a Computer Science engineer, I’ve gained solid experience in a wide range of programming languages. From low-level problem-solving in C++ to building desktop applications with C# and developing backend systems in Java</p>
                             </div>
                             
                         </div>
@@ -69,7 +69,7 @@ export const AboutSection = () => {
                             </div>
                             <div className="text-left">
                                 <h4 className='font-semibold text-lg'> Education</h4>
-                                <p className='text-muted-foreground'> I am currently pursuing a Bachelor’s degree in Computer Science, with a focus on software development, and systems design at Sailesian University of Technology. During my Erasmus exchange, I studied at a partner university abroad, expanding both my technical knowledge and language skills in an international environment.
+                                <p className='text-muted-foreground'> I've completed a Bachelor’s degree in Computer Science, with a focus on software development, and systems design at Sailesian University of Technology. During my Erasmus exchange, I studied at a partner university abroad, expanding both my technical knowledge and language skills in an international environment.
                                             I graduated from a technical high school specializing in Mechatronics, where I gained a solid foundation in electronics, programming, and mechanical systems.
                                 </p>
                             </div>
